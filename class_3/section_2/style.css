@@ -2,3 +2,29 @@
 	margin: 0;
 	padding: 0;
 }
+.section_part {
+  float: left;
+  width: 50%;
+  display: block;
+  overflow: hidden;
+}
+.img_area img {
+  width: 100%;
+  margin: 0;
+}
+.title_area {
+  text-align: right;
+  background: #ffc000;
+  padding: 50px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.logo {
+  text-align: right;
+}
+.text_area {
+  padding: 150px 50px;
+}
+.text_area p {
+  margin-bottom: 20px;
+}
