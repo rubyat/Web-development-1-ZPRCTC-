@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+	background-image: url('background.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.main_content {
+  padding: 30px;
+  overflow: hidden;
+}
+.title_part {
+  text-align: center;
+}
+.title_part h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+.title_part p {
+  color: #6b8596;
+  text-shadow: ;
+  font-size: 20px;
+}
+.single_content {
+  float: left;
+  width: 45%;
+  background: #fff;
+  margin: 10px;
+  padding: 20px;
+}
+.content_area {
+  clear: both;
+  margin-top: 25px;
+}
+.single_content h1 {
+  text-transform: uppercase;
+}	
