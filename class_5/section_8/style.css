@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.main_content {
+  padding: 50px;
+}
+.title_area {
+  text-align: center;
+}
+.title_area h1 {
+  text-transform: uppercase;
+}
+.content_part {
+  float: left;
+  width: 70%;
+}
+.service_area {
+  margin-top: 100px;
+}
+.single_service {
+	float: left;
+	width: 50%;
+	margin-bottom: 190px;
+}
+.number {
+  float: left;
+  width: 10%;
+  text-align: center;
+}
+.details {
+  float: left;
+  width: 90%;
+  padding: 0 20px;
+}
+.details h1 {
+  text-transform: uppercase;
+}
+.number h1 {
+  border: 2px solid #747071;
+  margin-top: 13px;
+  box-shadow: -2px 3px 6px -1px #000;
+  display: inline-block;
+  padding: 6px 20px;
+}
+.promo_part {
+  float: left;
+  width: 30%;
+}
+.single_icon {
+	float: left;
+	width: 50%;
+	text-align: center;
+	background: #ffc000;
+	padding: 40px 15px;
+}
+.single_icon.ash_bg {
+	background: #595959;
+}
+.single_icon i {
+	font-size: 150px;
+}
+.single_icon.ash_bg i {
+	color: #fff;
+}
