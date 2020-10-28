@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.main_content {
+  background-color: #39242E;
+}
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
+.brand_name {
+  float: left;
+  text-align: center;
+  color: #fff;
+  padding: 14px;
+  text-transform: uppercase;
+}
+.logo {
+  float: left;
+}
+.menu {
+  float: right;
+}
+.slider_area {
+  clear: both;
+}
+.menu ul {
+  list-style: none;
+}
+.menu ul li {
+  float: left;
+}
+.menu ul li a {
+  color: #fff;
+  text-decoration: navajowhite;
+  padding: 15px;
+  display: block;
+  text-transform: uppercase;
+}
+.footer_menu a:hover,
+.menu ul li.active a,
+.menu ul li a:hover{
+	color: #92D051;
+}
+
+.menu ul li input {
+  border-radius: 15px;
+  margin-top: 15px;
+  width: 100px;
+}
+.header_area {
+  display: block;
+  overflow: hidden;
+}
+.slider_area img {
+  width: 100%;
+  border: 2px solid #8EBA6F;
+}
+.left_part {
+  float: left;
+  width: 60%;
+  padding-right: 100px;
+}
+.right_part {
+  float: left;
+  width: 40%;
+}
+.single_content {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  margin-bottom: 30px;
+}
+.single_content h2 {
+	color: #9DC879;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+.single_content p {
+  color: #fff;
+}
+.content_area {
+  clear: both;
+  margin-top: 60px;
+}
+.left_part img {
+  width: 100%;
+}
+a {
+}
+.single_content a {
+	float: right;
+	background-color: #92D051;
+	padding: 4px 40px;
+	margin-top: 27px;
+	text-decoration: none;
+	font-size: 35px;
+	color: #fff;
+}
+
+.footer_area {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  background: #231A1E;
+  padding: 10px 0;
+}
+.footer_menu {
+	color: #fff;
+	text-transform: uppercase;
+	float: left;
+	width: 33.33%;
+}
+.footer_menu a {
+  color: #fff;
+  text-decoration: none;
+}
+.logo {
+}
+.social_links {
+	float: right;
+	color: #fff;
+	width: 33.33%;
+	text-align: right;
+}
+.footer_logo_area {
+	float: left;
+	width: 33.33%;
+}
+.social_links p {
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+.links a {
+	display: inline-block;
+	color: #000;
+	background: #2BAEF1;
+	padding: 5px;
+	width: 35px;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.content_devider {
+	display: block;
+	overflow: hidden;
+	border: 2px dashed #000;
+	margin-bottom: 50px;
+}
+
