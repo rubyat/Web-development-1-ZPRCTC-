@@ -1,0 +1,182 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+  background: #000;
+}
+.container {
+  width: 1100px;
+  margin: 40px auto;
+}
+.header_area {
+	float: right;
+}
+.logo {
+	float: left;
+}
+.search {
+	float: left;
+	/* padding: 15px; */
+	/* height: 57px; */
+	padding-top: 10px;
+	margin-left: 10px;
+}
+.search input {
+	padding: 6px;
+	border-radius: 20px;
+	background: transparent;
+}
+.slider_area img {
+	width: 100%;
+}
+.menu_area {
+	background: #fff;
+	margin: 30px 0;
+}
+.menu_area ul {
+	list-style: none;
+}
+.menu_area ul li {
+	display: inline-block;
+}
+.menu_area ul li a {
+	display: block;
+	padding: 15px 25px;
+	text-decoration: none;
+	color: #000;
+}
+.gallery_area {
+	background: #595959;
+	padding: 25px 20px;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.single_img {
+	float: left;
+	width: 16.66%;
+	text-align: center;
+}
+.single_img img {
+	border: 3px solid #716f70;
+}
+.main_content {
+	float: left;
+	width: 80%;
+	background: #4e4e4e;
+	padding-bottom: 50px;
+}
+.content_area {
+	display: block;
+	overflow: hidden;
+}
+.d_image {
+	float: left;
+	width: 35%;
+}
+.details {
+	float: left;
+	width: 65%;
+	color: #fff;
+	padding: 50px;
+}
+.details h1 {
+	text-transform: uppercase;
+	margin: ;
+	margin-bottom: 30px;
+}
+.details a {
+	color: #f2dc91;
+	margin-top: 20px;
+	display: block;
+	text-decoration: navajowhite;
+}
+.content_links {
+	clear: both;
+	display: block;
+	overflow: hidden;
+}
+.single_link_area {
+	float: left;
+	width: 33.33%;
+	/* line-height: 39px; */
+	padding: 0 21px;
+}
+.single_link_area h2 {
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	padding-left: 40px;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #575956;
+	padding-bottom: 15px;
+}
+.single_link_area h2 img {
+	width: 34px;
+	position: absolute;
+	left: 0;
+}
+.single_link_area a {
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 30px;
+}
+.sidebar {
+	float: left;
+	width: 20%;
+	padding-left: 30px;
+}
+.single_side_img {
+	margin-bottom: 30px;
+}
+.single_side_img img {
+	width: 100%;
+	border: 3px solid #787272;
+}
+.footer {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	margin: 50px 0;
+}
+.links a {
+	display: inline-block;
+	color: #000;
+	background: #2BAEF1;
+	padding: 5px;
+	width: 35px;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+.social_links {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
