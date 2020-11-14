@@ -1,0 +1,73 @@
+
+
+
+
+
+@media only screen and (min-width: 1199px) and (max-width: 1800px) {
+
+
+
+}
+
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+
+}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	
+	.container {
+		width: 95%;
+	}
+	.menu ul li input {
+		width: 200px;
+		padding: 8px;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	.search_box{
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.left_part {
+		width: 100%;
+		padding-right: 0;
+	}
+	.right_part,
+	.right_part img {
+		width: 100%;
+	}
+
+	.footer_menu,
+	.footer_logo_area,
+	.social_links {
+		width: 100%;
+		text-align: left;
+		margin-bottom: 20px;
+	}
+
+
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+
+}

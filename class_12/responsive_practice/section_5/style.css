@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.title_part {
+  float: left;
+  width: 15%;
+  padding: 35px 10px;
+  text-align: center;
+}
+.title_part h1 {
+  text-transform: uppercase;
+}
+.text_part {
+	float: left;
+	width: 85%;
+	padding-right: 50px;
+}
+.text_part p {
+	font-size: 27px;
+	line-height: 38px;
+	font-weight: bold;
+}
+.logo_part {
+	width: 100%;
+	text-align: right;
+	padding: 10px 50px;
+}
+.logo_section {
+  overflow: hidden;
+}
+.icon_section {
+  overflow: hidden;
+  background-color: #ffc000;
+}
+.single_icon {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 40px 0;
+}
+.details_section {
+  clear: both;
+  margin-top: 20px;
+}
+.single {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+  /*! margin: 10px; */
+}
+.single h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.single_icon i {
+	color: #fff;
+	font-size: 40px;
+	border: 10px solid #fff;
+	padding: 30px;
+	border-radius: 50%;
+}

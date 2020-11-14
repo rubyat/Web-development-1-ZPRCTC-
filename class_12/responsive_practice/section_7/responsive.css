@@ -1,0 +1,104 @@
+
+
+
+
+
+@media only screen and (min-width: 1199px) and (max-width: 1800px) {
+
+
+
+}
+
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+	.text_are p {
+		padding: 0;
+	}
+	.text_are h1 {
+		margin-bottom: 30px;
+	}
+	.button_area {
+		padding: 0;
+		margin: 50px auto;
+		width: 45%;
+	}
+
+}
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	.main_content {
+		display: flex;
+		flex-direction: column;
+	}
+	.img_section {
+		order: 2;
+	}
+
+	.details_section,
+	.img_section {
+		width: 100%;
+	}
+	.logo_area {
+		text-align: center;
+	}
+	.text_are {
+		padding: 20px;
+	}
+	.text_are p {
+		padding: 0;
+	}
+	.button_area {
+		margin: 15px auto;
+		padding: 0;
+		width: 60%;
+	}
+
+
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	
+	.main_content {
+		display: flex;
+		flex-direction: column;
+	}
+	.img_section {
+		order: 2;
+	}
+
+	.details_section,
+	.img_section {
+		width: 100%;
+	}
+	.logo_area {
+		text-align: center;
+	}
+	.text_are {
+		padding: 20px;
+	}
+	.text_are p {
+		padding: 0;
+	}
+	.button_area {
+		margin: 15px auto;
+		padding: 0;
+		width: 60%;
+	}
+
+
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+
+}
