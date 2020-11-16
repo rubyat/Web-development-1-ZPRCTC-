@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	
+	 $("#color_change").click(function(){
+		 $("#color_change").css('background-color','red');
+	 });
+	
+	 $("#color_change_multi").click(function(){
+		 $(this).css({
+			 'background-color':'red',
+			 'font-size':'40px',
+			 'width': '500px',
+			 'height': '500px',
+		 });
+	 });
+
+	
+});
+</script>
+<style>
+	.main_content{
+		width: 800px;
+		margin: 50px auto;
+	}
+	.box{
+		float: left;
+		margin: 10px;
+		background-color: yellow;
+		width: 300px;
+		height: 200px;
+		line-height: 200px;
+		text-align: center;
+	}
+	#my_box{
+		background: red;
+	}
+</style>
+</head>
+<body>
+
+
+	<div class="main_content">
+		<div id="color_change" class="box">Box color change</div>
+		<div id="color_change_multi" class="box">Box change Style</div>
+	</div>
+	
+	
+	
+
+</body>
+</html>

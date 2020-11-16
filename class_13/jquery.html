@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	
+  $("p").click(function(){
+	  
+    	//$(this).hide();
+	   alert('Clicked me');
+	  
+  });
+	
+
+	
+ $("#my_box_hide").click(function(){
+	 $("#my_box_hide").hide();
+ });
+	
+ $("#hide_show").click(function(){
+	 $("#my_box_hide").show();
+ });
+	
+ $("#slide_up").click(function(){
+	 //$("#slide_up").fadeOut();
+	 //$("#slide_up").fadeOut('slow');
+	 //$("#slide_up").fadeOut('fast');
+	 //$("#slide_up").fadeOut('9900');
+	 $("#slide_up").slideUp();
+ });
+	
+ $("#slide_down").click(function(){
+	 $("#slide_up").slideDown();
+ });
+	
+ $("#fade_out").click(function(){
+	 //$("#fade_out").fadeOut();
+	 //$("#fade_out").fadeOut('slow');
+	 //$("#fade_out").fadeOut('fast');
+	 //$("#fade_out").fadeOut(9900);
+	 $("#fade_out").fadeOut();
+ });
+	
+ $("#fade_in").click(function(){
+	 $("#fade_out").fadeIn();
+ });
+	
+ $("#toggle_box_action").click(function(){
+	 $("#toggle_box").toggle();
+ })
+
+	
+});
+</script>
+<style>
+	.main_content{
+		width: 800px;
+		margin: 50px auto;
+	}
+	.box{
+		float: left;
+		margin: 10px;
+		background-color: yellow;
+		width: 300px;
+		height: 200px;
+		line-height: 200px;
+		text-align: center;
+	}
+	#my_box{
+		background: red;
+	}
+</style>
+</head>
+<body>
+
+
+	<div class="main_content">
+		<div id="my_box_hide" class="box">Box hide</div>
+		<div id="hide_show" class="box">Box hide show</div>
+		<div id="slide_up" class="box">Box slide up</div>
+		<div id="slide_down" class="box">Box slide down</div>
+		<div id="fade_out" class="box">Box fade out</div>
+		<div id="fade_in" class="box">Box fade in</div>
+		<div id="toggle_box_action" class="box">Box Toggle Action</div>
+		<div id="toggle_box" class="box">Box Toggle</div>
+		
+	</div>
+
+</body>
+</html>
