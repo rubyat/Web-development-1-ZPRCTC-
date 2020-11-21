@@ -1,0 +1,316 @@
+.header_top {
+  background: #545454;
+  padding: 10px 0;
+}
+.header_top a {
+  color: #fff;
+}
+.header_top .contact_info i {
+  color: #e96b56;
+}
+.header_top .contact_info a {
+  margin-right: 20px;
+}
+.header_top .social_info a {
+  padding-left: 10px;
+}
+
+
+.logo_area {
+	padding: 15px 0;
+}
+.logo_area img {
+	width: 100%;
+}
+.menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.menu ul li {
+	display: inline-block;
+}
+.menu ul li a {
+	padding: 15px 10px;
+	display: block;
+}
+.menu ul li a {
+	padding: 15px 10px;
+	display: block;
+	color: #545454;
+}
+.menu ul li:hover a,
+.menu ul li.active a {
+	color: #e96b56;
+	text-decoration: none;
+}
+
+
+.single_slider {
+	min-height: 450px;
+	background-position: center;
+	background-size: cover;
+}
+.single_slider.slide_1 {
+	background-image: url('../img/slide/slide-1.jpg');
+}
+.single_slider.slide_2 {
+	background-image: url('../img/slide/slide-2.jpg');
+}
+.single_slider.slide_3 {
+	background-image: url('../img/slide/slide-3.jpg');
+}
+
+.single_slider h1 span {
+  color: #e96b56;
+}
+.single_slider p,
+.single_slider h1 {
+  margin-bottom: 30px;
+}
+.my-btn {
+  background: #e96b56;
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 30px;
+}
+
+
+
+
+.single_promo {
+  padding: 25px;
+}
+.promo_area {
+  margin: 50px 0;
+}
+.single_promo i {
+  color: #e96b56;
+  font-size: 30px;
+}
+.single_promo h3 {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+
+.about_area h2 {
+  font-size: 30px;
+}
+.about_area ul {
+  margin: ;
+  padding: 0;
+  list-style: none;
+}
+.about_area ul li i {
+  color: #e96b56;
+}
+
+
+
+
+.service_area {
+  margin-top: 60px;
+}
+.site_title {
+  text-align: center;
+}
+.site_title h1 {
+  position: relative;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+.site_title h1::after {
+  content: '';
+  width: 50px;
+  height: 4px;
+  background: #e96b56;
+  padding: ;
+  position: absolute;
+  top: 100%;
+  left: calc(50% - 25px);
+}
+
+
+
+
+.single_service h3 {
+	margin: 25px 0;
+}
+.single_service {
+  padding: 80px 25px;
+  margin-bottom: 25px;
+}
+.service_icon {
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  line-height: 40px;
+  background: #e96b56;
+  margin: 0 auto;
+  line-height: 80px;
+  border-radius: 10px;
+  font-size: 40px;
+  position: relative;
+  z-index: 2;
+}
+.service_icon::after {
+  width: 80px;
+  height: 80px;
+  background: #e96b56;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  content: '';
+  z-index: -1;
+  border-radius: 10px;
+  opacity: .5;
+}
+
+
+
+.client_area {
+	margin-top: 80px;
+	display: block;
+	overflow: hidden;
+}
+.single_client {
+  float: left;
+  width: 110px;
+  margin: 10px;
+}
+.single_client img {
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+
+
+
+footer {
+	clear: both;
+	margin-top: 100px;
+}
+
+.footer_newsletter {
+  background: #404040;
+  color: #fff;
+  padding: 40px 0;
+}
+.footer_newsletter h1 {
+  font-size: 30px;
+}
+.newsletter_input input {
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  padding: 10px;
+}
+.newsletter_input {
+  position: relative;
+}
+.newsletter_input .my-btn {
+  position: absolute;
+  top: 3px;
+  left: ;
+  right: 3px;
+}
+
+
+.useful_link_area {
+  background: #3b3b3b;
+  padding: 40px 0;
+  color: #fff;
+  font-size: 14px;
+}
+.useful_link_area a {
+  color: #fff;
+}
+.links_single h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.links_single ul {
+  margin: ;
+  padding: 0;
+  list-style: none;
+  padding-left: 10px;
+}
+.links_single ul li a {
+  padding: 5px 0;
+  display: block;
+}
+.links_single ul li a i {
+  color: #ea7e6c;
+}
+.links_single ul li a:hover {
+  text-decoration: none;
+}
+footer .social_info a {
+  background: #545454;
+  padding: 15px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: block;
+  float: left;
+  text-align: center;
+  line-height: 45px;
+  padding: 0;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+
+.copyright {
+  background: #404040;
+  padding: 40px 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.copyright a {
+  color: #ea7e6c;
+}
+.copyright p {
+  margin-bottom: 5px;
+}
+
+
+#my_slider .carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	background-color: #E85028;
+	border-radius: 50%;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: #E85028;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
